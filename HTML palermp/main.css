@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@charset "iso-8859-15";
+@color-profile --swop5c {
+  src: url("https://example.org/SWOP2006_Coated5v2.icc");
+}
+.header {
+  background-color: color(--swop5c 0% 70% 20% 0%);
+}
